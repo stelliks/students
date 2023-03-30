@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="div" id="forms">
+        <div>Введите имя:</div>
+        <input id="name" type="text" placeholder="Имя">
+        <div>Введите фамилию:</div>
+        <input id="surname" type="text" placeholder="Фамилия">
+        <div>Введите возраст:</div>
+        <input id="age" type="number" placeholder="Возраст">
+        <div>
+            <label>Учится ли в н.в.?</label>
+            <select id="learn">
+                <option value="true">Да</option>
+                <option value="false">Нет</option>
+            </select>
+        </div>
+        <div>Когда зачислен(а)?</div>
+        <input id="yearOfAdmission" type="number" placeholder="Введите год">
+        <button class="button" type="button" name="button" id="button" value="submit" onclick="getArr()">Жми Батон</button>
+        <button class="button" type="button" name="button" id="but" value="submit" onclick="createBodyTable()">Обновить</button>
+    </div>
+</body>
+
+</html>
